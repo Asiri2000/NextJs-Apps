@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home page",
+  description: "Manage your Home page SEO settings easily",
+};
 
 const home  = () => {
 

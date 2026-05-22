@@ -1,0 +1,25 @@
+{
+   "contact": [{
+
+             "id":"1",
+             "name":"John Doe",
+             "email":"john.doe@example.com",
+             "userId":"1"
+   }],
+
+   "users" : [
+    {
+        "id":"1",
+        "name":"user1",
+        "email":"jane.smith@example.com",
+        "password":"1234"
+    }
+   ]
+
+
+
+
+
+
+
+}
