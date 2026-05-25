@@ -1,0 +1,15 @@
+{
+  "Homepage": {
+    "title": "Welcome to the homepage",
+    "content": "This is the homepage content"
+  },
+
+  "About": {
+    "title": "About Us",
+    "content": "This is the homepage content"
+  },
+  "Contact": {
+    "title": "Contact us",
+    "content": "This is the contact us content"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Homepage": {
+    "title": "Willkommen auf der Startseite",
+    "content": "Dies ist der Inhalt der Startseite"
+  },
+
+  "About": {
+    "title": "Über uns",
+    "content": "Dies ist der Inhalt der Über uns Seite"
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "content": "Dies ist der Inhalt der Kontaktieren Sie uns Seite"
+  }
+}
