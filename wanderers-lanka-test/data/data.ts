@@ -49,42 +49,31 @@ export const destinationData = [
   },
 ];
 
-export const hotelsData = [
+export const PackagesData = [
   {
     id: 1,
     image: "/images/h1.jpg",
-    name: "The Grand London Resort and Spa",
-    location: "Westminster, London",
-    rating: 4.6,
-    reviews: "2,345",
-    price: "72",
+    name: "7-Day Classic Sri Lanka Tour",
+    Description: "Discover the best of Sri Lanka in one unforgettable journey featuring ancient cultural sites, scenic hill country, wildlife experiences, and tropical beaches.",
+   
   },
   {
     id: 2,
     image: "/images/h2.jpg",
-    name: "Barcelona City Suites Deluxe Hotel",
-    location: "Ciutat Vella, Barcelona",
-    rating: 4.7,
-    reviews: "1,912",
-    price: "85",
+    name: "Honeymoon Escape",
+    Description: "Experience a romantic getaway with luxury stays, breathtaking landscapes, candlelight moments, and unforgettable memories designed for couples.Ciutat Vella, Barcelona",
   },
   {
     id: 3,
     image: "/images/h3.jpg",
-    name: "Times Square Premium Stay Hotel",
-    location: "Manhattan, New York",
-    rating: 4.9,
-    reviews: "3,420",
-    price: "95",
+    name: "Wildlife & Beaches",
+    Description: "Combine thrilling wildlife safaris with relaxing beach escapes as you explore Sri Lanka’s rich nature, exotic animals, and coastal beauty.",
   },
   {
     id: 4,
     image: "/images/h4.jpg",
-    name: "Hilton Roma Luxury Hotel Palace",
-    location: "Vaticano Prati, Rome",
-    rating: 4.5,
-    reviews: "2,876",
-    price: "68",
+    name: "South Coast Surf Tour",
+    Description: "Ride the waves along Sri Lanka’s stunning southern coastline while enjoying beach towns, tropical sunsets, surfing hotspots, and laid-back island vibes.",
   },
 ];
 
