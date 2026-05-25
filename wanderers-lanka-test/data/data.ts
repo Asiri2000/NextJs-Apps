@@ -61,13 +61,13 @@ export const PackagesData = [
     id: 2,
     image: "/images/h2.jpg",
     name: "Honeymoon Escape",
-    Description: "Experience a romantic getaway with luxury stays, breathtaking landscapes, candlelight moments, and unforgettable memories designed for couples.Ciutat Vella, Barcelona",
+    Description: "Experience a romantic getaway with luxury stays, breathtaking landscapes, candlelight moments, and unforgettable memories designed for couples.Ciutat Vella, Barcelona.",
   },
   {
     id: 3,
     image: "/images/h3.jpg",
     name: "Wildlife & Beaches",
-    Description: "Combine thrilling wildlife safaris with relaxing beach escapes as you explore Sri Lanka’s rich nature, exotic animals, and coastal beauty.",
+    Description: "Combine thrilling wildlife safaris with relaxing beach escapes as you explore Sri Lanka’s rich nature, exotic animals, and coastal beauty.designed for couples.",
   },
   {
     id: 4,
