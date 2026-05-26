@@ -16,10 +16,16 @@ const Packages = () => {
 
           { /*  Package Card  */ }
 
-          {PackagesData.map((data)=>{
+          {PackagesData.map((data,i)=>{
+
+            // animation added
 
             return(
-                <div key={data.id}>
+                <div key={data.id}  
+                data-aos="fade-right"
+                 data-aos-anchor-placement="top-center"
+                 data-aos-delay={`${i * 100}`}
+                 >
                     <PackageCard packagelist={data} />
                 </div>
             );

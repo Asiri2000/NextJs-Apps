@@ -1,8 +1,7 @@
 import React from 'react'
 import SectionHeading from '../../Helper/SectionHeading'
 import DestinationSlider from './DestinationSlider'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+
 
 
 
@@ -14,7 +13,7 @@ const Destination = () => {
 
         {/* Section Heading  */ }
 
-    <SectionHeading heading="Exploring Popular Destinations in Sri Lanka" />
+    <SectionHeading heading="Exploring Popular Destinations " />
 
     { /* Section Content  */ }
 
