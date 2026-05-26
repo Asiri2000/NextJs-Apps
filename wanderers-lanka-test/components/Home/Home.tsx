@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero/Hero'
 import Packages from './Packages/Packages'
 import Destination from './Destination/Destination'
+import WhyChoose from './WhyChoose/WhyChoose'
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
         <Packages />
 
         <Destination />
+
+        <WhyChoose />
         
         </div>
   )
