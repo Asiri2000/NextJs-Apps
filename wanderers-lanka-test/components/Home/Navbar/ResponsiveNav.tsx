@@ -1,23 +1,29 @@
 "use client";
-import React, { useState } from 'react'
-import MobileNav from './MobileNav'
-import Nav from './Nav'
 
-const ResponsiveNav = () => {
+import React, { useState } from "react";
+import MobileNav from "./MobileNav";
+import Nav from "./Nav";
 
-    const [ showNav , setShowNav ] = useState(false);
+type Props = {
+  forceBg?: boolean;
+};
 
-    const handNavShow = () => setShowNav(true);
-    const handleCloseNav = ()  => setShowNav(false);
+const ResponsiveNav = ({ forceBg }: Props) => {
+  const [showNav, setShowNav] = useState(false);
 
+  const handNavShow = () => setShowNav(true);
+  const handleCloseNav = () => setShowNav(false);
 
   return (
     <div>
-          <Nav openNav={handNavShow}/>
-          <MobileNav showNav={showNav} closeNav={handleCloseNav} />
+      <Nav openNav={handNavShow} forceBg={forceBg} />
 
+      <MobileNav
+        showNav={showNav}
+        closeNav={handleCloseNav}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default ResponsiveNav
+export default ResponsiveNav;

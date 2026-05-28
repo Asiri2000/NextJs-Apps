@@ -7,10 +7,12 @@ import Link from "next/link";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
 type Props = {
-    openNav: () => void
+    openNav: () => void;
+    forceBg?: boolean;
+
 }
 
-const Nav = ({ openNav }: Props) => {
+const Nav = ({ openNav, forceBg }: Props) => {
 
 
     const [navBg,setNavBg]=useState(false);
@@ -31,8 +33,15 @@ const Nav = ({ openNav }: Props) => {
 
 
   return (
-    <div className={`${navBg?'bg-blue-950 shadow-md':'fixed'} 
-    transition-all duration-200 h-[12vh]  fixed w-full z-[1000]`}>
+ <div
+  className={`${
+    navBg || forceBg
+      ? "bg-[#0B253A] shadow-md"
+      : "bg-transparent"
+  } transition-all duration-200 h-[12vh] fixed w-full z-[1000]`}
+>
+
+    
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[90%] mx-auto z-[1000]">
         {/* Logo */}
 

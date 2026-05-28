@@ -39,7 +39,10 @@ export default function RootLayout({
       className={`${font.className} h-full antialiased`}
     >
       <ResponsiveNav />
+
       <body className="min-h-full flex flex-col">{children}</body>
+
+      
 
       <Footer />
 
