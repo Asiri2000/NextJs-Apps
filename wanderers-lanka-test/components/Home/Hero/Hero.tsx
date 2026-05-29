@@ -9,7 +9,7 @@ const Hero = () => {
       {/* background image - overlay*/}
       <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-70 "></div>
       <video
-        src="/images/hero1.mp4"
+        src="/videos/sri-lanka.mp4"
         autoPlay
         muted
         loop
